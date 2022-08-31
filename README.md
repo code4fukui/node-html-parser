@@ -8,15 +8,6 @@ performance is the top priority.  For this reason, some malformatted HTML may no
 be able to parse correctly, but most usual errors are covered (eg. HTML4 style
 no closing `<li>`, `<td>` etc).
 
-## Install
-
-
-```shell
-npm install --save node-html-parser
-```
-
-> Note: when using Fast HTML Parser in a Typescript project the minimum Typescript version supported is `^4.1.2`.
-
 ## Performance
 
 -- 2022-08-10
@@ -40,9 +31,9 @@ Tested with [htmlparser-benchmark](https://github.com/AndreasMadsen/htmlparser-b
 ## Usage
 
 ```ts
-import { parse } from 'node-html-parser';
+import { HTMLParser } from 'https://code4fukui.github.io/node-html-parser/HTMLParser.js';
 
-const root = parse('<ul id="list"><li>Hello World</li></ul>');
+const root = HTMLParser.parse('<ul id="list"><li>Hello World</li></ul>');
 
 console.log(root.firstChild.structure);
 // ul#list
@@ -66,9 +57,9 @@ root.toString();	// <li>Hello World</li>
 ```
 
 ```js
-var HTMLParser = require('node-html-parser');
+import { HTMLParser } from 'https://code4fukui.github.io/node-html-parser/HTMLParser.js';
 
-var root = HTMLParser.parse('<ul id="list"><li>Hello World</li></ul>');
+const root = HTMLParser.parse('<ul id="list"><li>Hello World</li></ul>');
 ```
 
 ## Global Methods
