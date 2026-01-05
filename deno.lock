@@ -1,0 +1,48 @@
+{
+  "version": "5",
+  "remote": {
+    "https://code4fukui.github.io/he-es/he.esm.js": "23925f7e05b1faf12ab2777eda50f876549e5c2e031e0c599596a72f65dbaed0"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@types/entities@latest",
+        "npm:@types/he@latest",
+        "npm:@types/node@latest",
+        "npm:@typescript-eslint/eslint-plugin-tslint@latest",
+        "npm:@typescript-eslint/eslint-plugin@latest",
+        "npm:@typescript-eslint/parser@latest",
+        "npm:blanket@latest",
+        "npm:boolbase@1",
+        "npm:cheerio@^1.0.0-rc.12",
+        "npm:cross-env@^7.0.3",
+        "npm:css-select@^5.1.0",
+        "npm:eslint-config-prettier@latest",
+        "npm:eslint-plugin-import@latest",
+        "npm:eslint@^8.23.1",
+        "npm:he@1.2.0",
+        "npm:high5@1",
+        "npm:html-dom-parser@^3.1.2",
+        "npm:html-parser@0.11",
+        "npm:html5parser@^2.0.2",
+        "npm:htmljs-parser@^5.1.4",
+        "npm:htmlparser-benchmark@^1.1.3",
+        "npm:htmlparser2@^8.0.1",
+        "npm:htmlparser@^1.7.7",
+        "npm:mocha-each@^2.0.1",
+        "npm:mocha@latest",
+        "npm:neutron-html5parser@0.2",
+        "npm:np@latest",
+        "npm:parse5@^7.1.1",
+        "npm:rimraf@^3.0.2",
+        "npm:saxes@6",
+        "npm:should@latest",
+        "npm:spec@latest",
+        "npm:standard-version@^9.5.0",
+        "npm:travis-cov@latest",
+        "npm:ts-node@^10.9.1",
+        "npm:typescript@latest"
+      ]
+    }
+  }
+}
