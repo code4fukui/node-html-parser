@@ -1,4 +1,4 @@
-# Fast HTML Parser [![NPM version](https://badge.fury.io/js/node-html-parser.png)](http://badge.fury.io/js/node-html-parser) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Ftaoqf%2Fnode-html-parser%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/taoqf/node-html-parser/goto?ref=main)
+# Fast HTML Parser
 
 Fast HTML Parser is a _very fast_ HTML parser. Which will generate a simplified
 DOM tree, with element query support.
@@ -7,26 +7,6 @@ Per the design, it intends to parse massive HTML files in lowest price, thus the
 performance is the top priority.  For this reason, some malformatted HTML may not
 be able to parse correctly, but most usual errors are covered (eg. HTML4 style
 no closing `<li>`, `<td>` etc).
-
-## Performance
-
--- 2022-08-10
-
-```shell
-html-parser     :24.1595 ms/file ± 18.7667
-htmljs-parser   :4.72064 ms/file ± 5.67689
-html-dom-parser :2.18055 ms/file ± 2.96136
-html5parser     :1.69639 ms/file ± 2.17111
-cheerio         :12.2122 ms/file ± 8.10916
-parse5          :6.50626 ms/file ± 4.02352
-htmlparser2     :2.38179 ms/file ± 3.42389
-htmlparser      :17.4820 ms/file ± 128.041
-high5           :3.95188 ms/file ± 2.52313
-node-html-parser:2.04288 ms/file ± 1.25203
-node-html-parser (last release):2.00527 ms/file ± 1.21317
-```
-
-Tested with [htmlparser-benchmark](https://github.com/AndreasMadsen/htmlparser-benchmark).
 
 ## Usage
 
@@ -61,6 +41,26 @@ import { HTMLParser } from 'https://code4fukui.github.io/node-html-parser/HTMLPa
 
 const root = HTMLParser.parse('<ul id="list"><li>Hello World</li></ul>');
 ```
+
+## Performance
+
+-- 2022-08-10
+
+```shell
+html-parser     :24.1595 ms/file ± 18.7667
+htmljs-parser   :4.72064 ms/file ± 5.67689
+html-dom-parser :2.18055 ms/file ± 2.96136
+html5parser     :1.69639 ms/file ± 2.17111
+cheerio         :12.2122 ms/file ± 8.10916
+parse5          :6.50626 ms/file ± 4.02352
+htmlparser2     :2.38179 ms/file ± 3.42389
+htmlparser      :17.4820 ms/file ± 128.041
+high5           :3.95188 ms/file ± 2.52313
+node-html-parser:2.04288 ms/file ± 1.25203
+node-html-parser (last release):2.00527 ms/file ± 1.21317
+```
+
+Tested with [htmlparser-benchmark](https://github.com/AndreasMadsen/htmlparser-benchmark).
 
 ## Global Methods
 
