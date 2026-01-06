@@ -11,9 +11,9 @@ no closing `<td>` etc).
 ## Usage
 
 ```ts
-import { parse } from 'https://code4fukui.github.io/node-html-parser/HTMLParser.js';
+import { HTMLParser } from 'https://code4fukui.github.io/node-html-parser/HTMLParser.js';
 
-const root = parse('<ul id="list"><li>Hello World</li></ul>');
+const root = HTMLParser.parse('<ul id="list"><li>Hello World</li></ul>');
 
 console.log(root.firstChild.structure);
 // ul#list
