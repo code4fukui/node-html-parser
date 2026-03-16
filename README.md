@@ -1,4 +1,5 @@
 # Fast HTML Parser
+日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
 Fast HTML Parser is a _very fast_ HTML parser. Which will generate a simplified
 DOM tree, with element query support.
@@ -395,3 +396,6 @@ Get all attributes of current element. **Notice: do not try to change the return
 ### range
 
 Corresponding source code start and end indexes (ie [ 0, 40 ])
+
+## License
+This project is licensed under the [MIT License](LICENSE).
