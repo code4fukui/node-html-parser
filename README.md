@@ -1,5 +1,7 @@
 # Fast HTML Parser
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Fast HTML Parser is a _very fast_ HTML parser. Which will generate a simplified
 DOM tree, with element query support.
 
